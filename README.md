@@ -9,6 +9,7 @@ Este repositorio contiene el diseño separado de las herramientas nativas para *
 | [Arquitectura funcional](docs/arquitectura-herramientas-nativas-yellow-duxn.md) | Alcance, módulos, roles, límites, eventos y arquitectura integrada. |
 | [Diseño de módulos y flujos](docs/diseno-modulos-y-flujos-yellow-duxn.md) | Pantallas, navegación, estados, acciones y recorridos de usuario por herramienta. |
 | [Especificación de integración MVP](docs/especificacion-integracion-mvp-yellow-duxn.md) | Estructura de paquetes, modelos, APIs, eventos, banderas y plan de entrega. |
+| [Flujo UX/UI detallado de STUDIO](docs/ux-ui-flujo-studio-yellow-duxn.md) | Arquitectura de información, pantallas, recorridos, accesibilidad y criterios de aceptación del editor nativo. |
 
 ## Herramientas diseñadas
 
