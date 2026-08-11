@@ -11,6 +11,7 @@ Este repositorio contiene el diseño separado de las herramientas nativas para *
 | [Especificación de integración MVP](docs/especificacion-integracion-mvp-yellow-duxn.md) | Estructura de paquetes, modelos, APIs, eventos, banderas y plan de entrega. |
 | [Flujo UX/UI detallado de STUDIO](docs/ux-ui-flujo-studio-yellow-duxn.md) | Arquitectura de información, pantallas, recorridos, accesibilidad y criterios de aceptación del editor nativo. |
 | [Flyer Express — Herramienta nativa prioritaria](docs/herramienta-flyers-nativa-yellow-duxn.md) | Diseño integral de creación de flyers por plantillas para promover servicios sin conocimientos de diseño. |
+| [Asistente inmobiliario de Duxn](docs/especificacion-asistente-inmobiliario-duxn.md) | Base de conocimiento, consultas de propiedades, flujos conversacionales, salvaguardas y criterios de aceptación del chatbot inmobiliario. |
 
 ## Herramientas diseñadas
 
