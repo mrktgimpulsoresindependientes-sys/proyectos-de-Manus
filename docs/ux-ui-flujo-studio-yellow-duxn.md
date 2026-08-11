@@ -5,7 +5,7 @@
 **Versión:** Diseño UX/UI v1.0  
 **Propósito:** Permitir que una persona cree, conecte, revise y publique contenido dentro de Yellow Duxn, con o sin una oferta o campaña asociada, sin abandonar la aplicación ni instalar herramientas adicionales.
 
-> **Principio rector:** STUDIO no obliga a que el contenido sea comercial. Facilita la creación social normal y añade una capa de impulso solo cuando el usuario decide asociar una oferta, una campaña o una vitrina.
+> **Principio rector:** STUDIO no obliga a que el contenido sea comercial. Facilita la creación social normal y añade una capa de impulso solo cuando el usuario decide asociar una oferta, una campaña o una vitrina. Para el lanzamiento, **Flyer Express** es la acción inicial prioritaria: permite a personas sin experiencia de diseño crear flyers de servicios mediante plantillas guiadas, sin salir de Yellow Duxn.
 
 ## 1. Problema que resuelve y resultado deseado
 
@@ -41,7 +41,7 @@ STUDIO se divide en dos espacios que comparten el mismo módulo: **Biblioteca**,
 
 | Sección | Ruta propuesta | Contenido | Acciones primarias |
 |---|---|---|---|
-| **Inicio de STUDIO** | `/crear` | Acciones rápidas, últimos borradores, contexto activo y avisos importantes. | Crear desde cero, usar plantilla, continuar borrador. |
+| **Inicio de STUDIO** | `/crear` | Acción prioritaria de Flyer Express, últimos borradores, contexto activo y avisos importantes. | Crear flyer para mi servicio, crear desde cero, continuar borrador. |
 | **Biblioteca** | `/crear/biblioteca` | Filtros y lista de borradores, programados, publicados y archivados. | Abrir, duplicar, archivar, ver resultados. |
 | **Plantillas** | `/crear/plantillas` | Plantillas propias, de campaña y aprobadas por marca. | Previsualizar, usar plantilla, guardar. |
 | **Editor** | `/crear/:draftId` | Lienzo de creación, paneles contextuales, autoguardado y acciones de publicación. | Guardar, previsualizar, revisar y publicar. |
@@ -170,12 +170,12 @@ La pantalla de inicio permite reanudar trabajo o empezar con una intención clar
 | Región | Elementos | Interacción |
 |---|---|---|
 | Cabecera | Título “Crear”, botón “Borradores”, menú de más opciones. | “Borradores” abre biblioteca con filtro `borrador`. |
-| Acción primaria | Botón “Crear desde cero”. | Crea un borrador y abre S-02. |
-| Acciones de contexto | “Promocionar una oferta”, “Usar plantilla”, “Material de campaña”. | Abren el selector respectivo; si no hay datos, explican dónde encontrarlos. |
+| Acción primaria | Botón “Crear flyer para mi servicio”. | Abre Flyer Express, con objetivo y plantillas guiadas para personas sin conocimientos de diseño. |
+| Acciones de contexto | “Crear desde cero”, “Promocionar una oferta”, “Material de campaña”. | Flyer Express es la ruta principal; las demás acciones se mantienen como accesos secundarios y abren el selector respectivo. |
 | Continuar | Hasta tres tarjetas de borrador, con tipo, última edición y contexto. | Tocar cualquier parte abre el borrador; menú secundario permite duplicar o archivar. |
 | Avisos | Oferta pausada, comentarios de revisión, tarea próxima a vencer o error de sincronización. | Cada aviso enlaza solo a la acción que puede resolverlo. |
 
-**Estado vacío:** Cuando no existen borradores ni campañas, se muestra el mensaje “Tu próximo contenido puede empezar aquí” y dos acciones: “Crear desde cero” y “Explorar ofertas”. La segunda es secundaria para no sugerir que todo contenido debe generar comisión.
+**Estado vacío:** Cuando no existen borradores ni campañas, se muestra el mensaje “Promociona tu servicio con un flyer en pocos pasos” y dos acciones: “Crear flyer para mi servicio” y “Crear desde cero”. La creación general permanece disponible, pero Flyer Express concentra la ruta principal para personas sin experiencia de diseño.
 
 ### 8.2 S-02 — Selector de formato
 

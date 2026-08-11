@@ -241,3 +241,18 @@ Cuando se inicie la construcción, cada módulo debe entregar su manifiesto, esq
 ---
 
 **Conclusión de diseño:** Yellow Duxn puede ofrecer herramientas completas de afiliación, creación, atribución, analítica y recompensas como un solo ecosistema. La separación ocurre en la arquitectura, los permisos y las fronteras de datos; la experiencia para la persona usuaria sigue siendo una aplicación coherente y sin descargas adicionales.
+
+
+## Addenda de priorización — Flyer Express
+
+La capacidad **Flyer Express** se prioriza por encima de la expansión del editor general de STUDIO y de los módulos comerciales avanzados. Su objetivo es resolver primero la necesidad inmediata de prestadores de servicios que quieren anunciarse sin conocimientos de diseño ni aplicaciones externas.
+
+| Prioridad actualizada | Entrega | Dependencias mínimas | Resultado |
+|---:|---|---|---|
+| **1** | Flyer Express P0 dentro de STUDIO | Borradores, medios, plantillas versionadas, render, accesibilidad y publicación en feed/perfil. | Una persona crea y publica un flyer de servicio con plantilla en cuatro pasos. |
+| **2** | Captación y reutilización | Perfil de servicio, CTA/contacto, biblioteca y duplicado. | El flyer puede convertirse en una herramienta recurrente de promoción. |
+| **3** | Contexto comercial integrado | MARKET, LINKS y divulgación. | Afiliados autorizados promocionan servicios/ofertas con reglas visibles. |
+| **4** | Campañas y resultados | CAMPAIGNS, moderación contextual y PULSE. | Marcas y comunidades distribuyen plantillas y miden publicaciones. |
+| **5** | Editor general ampliado | Capacidades reutilizables de STUDIO. | Se agregan formatos de contenido adicionales sin desplazar el flujo de flyers. |
+
+La especificación completa de esta capacidad se encuentra en [`herramienta-flyers-nativa-yellow-duxn.md`](herramienta-flyers-nativa-yellow-duxn.md).

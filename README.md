@@ -10,12 +10,13 @@ Este repositorio contiene el diseño separado de las herramientas nativas para *
 | [Diseño de módulos y flujos](docs/diseno-modulos-y-flujos-yellow-duxn.md) | Pantallas, navegación, estados, acciones y recorridos de usuario por herramienta. |
 | [Especificación de integración MVP](docs/especificacion-integracion-mvp-yellow-duxn.md) | Estructura de paquetes, modelos, APIs, eventos, banderas y plan de entrega. |
 | [Flujo UX/UI detallado de STUDIO](docs/ux-ui-flujo-studio-yellow-duxn.md) | Arquitectura de información, pantallas, recorridos, accesibilidad y criterios de aceptación del editor nativo. |
+| [Flyer Express — Herramienta nativa prioritaria](docs/herramienta-flyers-nativa-yellow-duxn.md) | Diseño integral de creación de flyers por plantillas para promover servicios sin conocimientos de diseño. |
 
 ## Herramientas diseñadas
 
 | Módulo | Capacidad nativa |
 |---|---|
-| **STUDIO** | Creación y publicación de contenido comercial responsable. |
+| **STUDIO** | Creación y publicación de contenido; Flyer Express es su capacidad inicial prioritaria para producir flyers de servicios por plantillas. |
 | **MARKET** | Catálogo de ofertas, condiciones y solicitudes de afiliación. |
 | **LINKS** | Enlaces, códigos y atribución de recomendaciones. |
 | **SHOWCASE** | Vitrinas y colecciones nativas compartibles. |
