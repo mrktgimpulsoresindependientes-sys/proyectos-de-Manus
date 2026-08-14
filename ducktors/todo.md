@@ -37,6 +37,6 @@
 - [x] Probar que una sincronización vacía no deja horarios obsoletos reservables.
 - [x] Preparar y subir el logo proporcionado como activo estático de Ducktors.
 - [x] Aplicar el logo de Ducktor en la navegación y las superficies de marca de la aplicación.
-- [ ] Validar la identidad visual actualizada y guardar un nuevo punto de control.
-- [ ] Exportar el código actualizado en un archivo ZIP descargable.
-- [ ] Sincronizar el código actualizado con el repositorio GitHub seleccionado.
+- [x] Validar la identidad visual actualizada y guardar un nuevo punto de control.
+- [x] Exportar el código actualizado en un archivo ZIP descargable.
+- [x] Sincronizar el código actualizado con el repositorio GitHub seleccionado.
