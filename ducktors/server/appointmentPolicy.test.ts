@@ -1,0 +1,3 @@
+import { describe, expect, it } from "vitest";
+import { getBookingReadiness } from "./appointmentPolicy";
+describe("reglas de reserva", () => { it("bloquea reservas mientras el catálogo no esté conectado", () => { const result = getBookingReadiness({ catalogConnected: false, professionalExists: true, slotAvailable: true, modalityAvailable: true }); expect(result).toMatchObject({ enabled: false, reason: "catalog_pending" }); }); it("permite avanzar sólo cuando perfil, modalidad y horario son válidos", () => { const result = getBookingReadiness({ catalogConnected: true, professionalExists: true, slotAvailable: true, modalityAvailable: true }); expect(result).toMatchObject({ enabled: true, reason: "ready" }); }); });

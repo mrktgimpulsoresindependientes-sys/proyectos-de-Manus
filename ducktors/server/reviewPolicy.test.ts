@@ -1,0 +1,3 @@
+import { describe, expect, it } from "vitest";
+import { canSubmitReview } from "./reviewPolicy";
+describe("opiniones de pacientes", () => { it("admite una opinión únicamente después de una cita completada del paciente", () => { expect(canSubmitReview({ appointmentState: "completed", isAppointmentOwner: true, alreadyReviewed: false }).allowed).toBe(true); }); it("impide valorar citas ajenas o no completadas", () => { expect(canSubmitReview({ appointmentState: "confirmed", isAppointmentOwner: true, alreadyReviewed: false }).allowed).toBe(false); expect(canSubmitReview({ appointmentState: "completed", isAppointmentOwner: false, alreadyReviewed: false }).allowed).toBe(false); }); });

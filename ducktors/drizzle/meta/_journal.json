@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1786729336382,
+      "tag": "0000_living_madame_masque",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1786730905194,
+      "tag": "0001_small_xavin",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1786734994355,
+      "tag": "0002_jittery_invaders",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1786735020974,
+      "tag": "0003_third_plazm",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1786735138767,
+      "tag": "0004_sour_queen_noir",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1786735327448,
+      "tag": "0005_kind_queen_noir",
+      "breakpoints": true
+    }
+  ]
+}

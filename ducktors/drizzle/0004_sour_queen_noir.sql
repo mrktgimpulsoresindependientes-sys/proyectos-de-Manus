@@ -1,0 +1,1 @@
+ALTER TABLE `professional_profiles` ADD `contactEmail` varchar(320);

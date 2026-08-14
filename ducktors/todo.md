@@ -1,0 +1,42 @@
+# Project TODO
+
+- [x] Definir el modelo de datos para catálogo Yellow Duxn, perfiles, citas, preguntas y agenda.
+- [x] Implementar una landing pública de Ducktors con la paleta azul celeste, azul pálido, azure, blanco y azul cobalto.
+- [x] Construir búsqueda avanzada y directorio de profesionales con filtros de especialidad, nombre, localidad, seguro y síntomas.
+- [ ] Integrar la capa de acceso al catálogo Yellow Duxn y mostrar perfiles clínicos verificables.
+- [x] Implementar detalle de perfil profesional con servicios, cobertura, disponibilidad y telemedicina.
+- [x] Implementar reserva de cita presencial o por videollamada con confirmación automática.
+- [x] Incorporar opiniones y valoraciones basadas únicamente en envíos reales de pacientes autenticados.
+- [x] Crear la sección anónima "Pregunta al experto" con respuestas de profesionales verificados.
+- [x] Construir el panel de agenda profesional para horarios, pacientes, cancelaciones y cambios.
+- [x] Incorporar edición de perfil profesional y metadatos orientados al posicionamiento de cada perfil.
+- [x] Implementar el chatbot de atención con orientación no clínica para pacientes y profesionales.
+- [x] Configurar recordatorios de citas por correo para paciente y profesional.
+- [x] Escribir y ejecutar pruebas unitarias para la lógica de catálogo, reservas y chatbot.
+- [x] Verificar la interfaz en escritorio y móvil, corregir incidencias y preparar la entrega.
+- [x] Dejar el adaptador de Yellow Duxn desacoplado y sin registros ilustrativos hasta recibir una fuente autorizada.
+- [x] Dejar el contrato de correo y la programación de recordatorios listos para activar sin realizar envíos reales.
+- [x] Implementar un asistente inicial de orientación operativa con límites explícitos, sin diagnóstico ni atención clínica.
+- [x] Mostrar respuestas verificadas en "Pregunta al experto" cuando existan respuestas publicadas.
+- [x] Crear vistas estructurales de agenda, edición de perfil y reservas para su activación al vincular Yellow Duxn.
+- [x] Agregar pruebas para las reglas de reserva y revisar la capa de recordatorios preparada.
+- [x] Crear una vista explícita de reserva de cita preparada para disponibilidad real de Yellow Duxn.
+- [x] Conectar la vista de reserva al contrato de estado y próximos pasos de la reserva.
+- [x] Mostrar opiniones publicadas y el formulario de valoración elegible en el perfil profesional.
+- [x] Validar en compilación y pruebas la política, persistencia y rutas de opiniones.
+- [x] Probar la persistencia y las rutas autenticadas de opiniones, incluidos duplicados y citas no elegibles.
+- [x] Añadir un activador flotante persistente para abrir el asistente de ayuda desde cualquier pantalla.
+- [x] Verificar la accesibilidad, el comportamiento de cierre y la visualización responsive del asistente flotante.
+- [x] Implementar cliente Yellow Duxn, validación de registros y sincronización transaccional preparada para credenciales.
+- [x] Completar reserva atómica, confirmación y consultas de agenda con disponibilidad real al activarse el catálogo.
+- [x] Completar adaptador de correo y ejecución programada de recordatorios sin habilitar envíos externos.
+- [x] Ampliar pruebas internas y documentar el procedimiento de activación mediante credenciales y pruebas de integración.
+- [ ] Cargar credenciales autorizadas de Yellow Duxn y correo transaccional.
+- [ ] Ejecutar pruebas de integración con Yellow Duxn, reservas y entregas reales de correo.
+- [x] Corregir la sincronización de disponibilidad cuando Yellow Duxn devuelva un catálogo válido sin horarios.
+- [x] Probar que una sincronización vacía no deja horarios obsoletos reservables.
+- [x] Preparar y subir el logo proporcionado como activo estático de Ducktors.
+- [x] Aplicar el logo de Ducktor en la navegación y las superficies de marca de la aplicación.
+- [ ] Validar la identidad visual actualizada y guardar un nuevo punto de control.
+- [ ] Exportar el código actualizado en un archivo ZIP descargable.
+- [ ] Sincronizar el código actualizado con el repositorio GitHub seleccionado.

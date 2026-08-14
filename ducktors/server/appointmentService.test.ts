@@ -1,0 +1,3 @@
+import { describe, expect, it } from "vitest";
+import { getBookingReadiness } from "./appointmentPolicy";
+describe("flujo de reserva", () => { it("habilita confirmación cuando catálogo, profesional, modalidad y horario son válidos", () => { expect(getBookingReadiness({ catalogConnected: true, professionalExists: true, slotAvailable: true, modalityAvailable: true }).enabled).toBe(true); }); it("mantiene bloqueada la reserva antes de contar con un horario real", () => { expect(getBookingReadiness({ catalogConnected: true, professionalExists: true, slotAvailable: false, modalityAvailable: true }).enabled).toBe(false); }); });
